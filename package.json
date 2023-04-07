@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "author": "李琦 <qi.li@huilianyi.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/pro-layout": "^7.10.3",
+    "antd": "^5.4.0",
+    "axios": "^1.3.5",
+    "umi": "^4.0.64"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@umijs/plugins": "^4.0.64",
+    "typescript": "^5.0.0"
+  }
+}
